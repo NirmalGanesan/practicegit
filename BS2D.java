@@ -7,7 +7,8 @@ public class BS2D {
     public static void main(String[] args) {
      int [][] a = {
          {10,20,30,40},
-         {11,25,35,45}
+         {11,25,35,45},
+		 {2,4,5,6}
      };
      int target = 36;
      System.out.println(Search(a,target));
